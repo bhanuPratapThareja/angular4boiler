@@ -4,16 +4,18 @@ import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
 
 const appRoutes = [
-  {path: '', component: NavbarComponent},
+  {path: '', component: HomeComponent},
   {path: '**', redirectTo: '', pathMatch: 'full'}
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
