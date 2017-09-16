@@ -1,3 +1,8 @@
+git clone https://github.com/bhanuPratapThareja/angular4boiler.git <ProjectName>
+
+yarn install
+
+
 # Angular4boiler
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
